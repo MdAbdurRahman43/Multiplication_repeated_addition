@@ -1,0 +1,18 @@
+`timescale 1ns/1ns
+module register_b(bout,bus,ldb,decb,clk);
+input decb,clk,ldb;
+input [15:0] bus;
+output [15:0] bout;
+reg [15:0]out;
+assign bout=out;
+always @(posedge clk)
+begin 
+if(ldb)
+out<=bus;
+else if(decb)
+out<=bus-16'h0001;
+
+end
+
+
+endmodule

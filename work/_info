@@ -1,0 +1,334 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/vlsi project/modelsim_project_implemetation
+T_opt
+!s110 1746213266
+Vc<9Fi:m<:[^0g;[_cDF@W1
+Z1 04 10 4 work mul_add_tb fast 0
+=1-54e1ad96c068-68151992-188-1a94
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7;67
+R0
+T_opt1
+!s110 1746882577
+V>]jf[7[W@Vl`cA`e9oSJE0
+R1
+=1-54e1ad96c068-681f500f-13f-16fc
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1746212928
+V700lkcQLRR5g0WGmZaRZW0
+04 20 4 work control_path_checker fast 0
+=1-54e1ad96c068-68151840-215-2db0
+R2
+R3
+n@_opt2
+R4
+R0
+vadd
+!s110 1746130887
+!i10b 1
+!s100 k93nCzjLLQbc011Zh1zXe0
+IAmH>>Ei720T@=d985g=Z<1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dF:/vlsi project/fsm_projects
+w1746130882
+8F:/vlsi project/fsm_projects/add.v
+FF:/vlsi project/fsm_projects/add.v
+L0 2
+Z7 OL;L;10.7;67
+r1
+!s85 0
+31
+!s108 1746130887.000000
+!s107 F:/vlsi project/fsm_projects/add.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/add.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vadder
+Z9 !s110 1746887088
+!i10b 1
+!s100 [[G01X;RAQCm6K7[>7;I[3
+IZZ;oHi2S97j;g1j`7fbJ`0
+R5
+R6
+w1746212650
+8F:/vlsi project/fsm_projects/adder.v
+FF:/vlsi project/fsm_projects/adder.v
+L0 2
+R7
+r1
+!s85 0
+31
+Z10 !s108 1746887088.000000
+!s107 F:/vlsi project/fsm_projects/adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/adder.v|
+!i113 0
+R8
+R3
+vcheck_tb
+Z11 !s110 1746887089
+!i10b 1
+!s100 ]5=Laci4z4SJ69n:dZcCh3
+I7[]mmgzVAoMo<27W0jzl^2
+R5
+R6
+w1746207552
+8F:/vlsi project/fsm_projects/check_tb.v
+FF:/vlsi project/fsm_projects/check_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+Z12 !s108 1746887089.000000
+!s107 F:/vlsi project/fsm_projects/check_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/check_tb.v|
+!i113 0
+R8
+R3
+vchecker
+R11
+!i10b 1
+!s100 RRPT[k`Y7BceIS1<3Ujbo0
+I1c0^DjREiV2GFS`5eP0Gi2
+R5
+R6
+w1746355201
+8F:/vlsi project/fsm_projects/checker.v
+FF:/vlsi project/fsm_projects/checker.v
+L0 46
+R7
+r1
+!s85 0
+31
+R12
+!s107 F:/vlsi project/fsm_projects/checker.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/checker.v|
+!i113 0
+R8
+R3
+vcmp
+!s110 1746130209
+!i10b 1
+!s100 CQa`S2;a4MFXnRikQdfna1
+Ial2<oh1NRlBTaQ=PcBff>1
+R5
+R6
+w1746129946
+8F:/vlsi project/fsm_projects/cmp.v
+FF:/vlsi project/fsm_projects/cmp.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1746130209.000000
+!s107 F:/vlsi project/fsm_projects/cmp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/cmp.v|
+!i113 0
+R8
+R3
+vcompare
+R9
+!i10b 1
+!s100 Q[]<h<8Yk4CP5[SFMkY9C0
+IifQf3Zz?TPWHJbXV63id72
+R5
+R6
+w1746201335
+8F:/vlsi project/fsm_projects/compare.v
+FF:/vlsi project/fsm_projects/compare.v
+L0 2
+R7
+r1
+!s85 0
+31
+R10
+!s107 F:/vlsi project/fsm_projects/compare.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/compare.v|
+!i113 0
+R8
+R3
+vcontrol_path_checker
+R11
+!i10b 1
+!s100 N8A1S96I;Q;UBnGeZXMFI3
+I[?BG0c74S^kNM[Uk<=:Pf1
+R5
+R6
+w1746209505
+8F:/vlsi project/fsm_projects/control_path_checker.v
+FF:/vlsi project/fsm_projects/control_path_checker.v
+L0 3
+R7
+r1
+!s85 0
+31
+R12
+!s107 F:/vlsi project/fsm_projects/control_path_checker.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/control_path_checker.v|
+!i113 0
+R8
+R3
+vmul_add_controlpath
+R9
+!i10b 1
+!s100 98mmob6oaC<4[NZe6`o2>0
+IlI0d@9=K`^zCh;@5aa<]e1
+R5
+R6
+w1746209758
+8F:/vlsi project/fsm_projects/mul_add_controlpath.v
+FF:/vlsi project/fsm_projects/mul_add_controlpath.v
+L0 2
+R7
+r1
+!s85 0
+31
+R10
+!s107 F:/vlsi project/fsm_projects/mul_add_controlpath.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/mul_add_controlpath.v|
+!i113 0
+R8
+R3
+vmul_add_datapath
+Z13 !s110 1746887087
+!i10b 1
+!s100 JPiWDe8nR`dL]M5^T;bo60
+II1]L?GLV19RATd19N?Ro>1
+R5
+R6
+w1746201330
+8F:/vlsi project/fsm_projects/mul_add_datapath.v
+FF:/vlsi project/fsm_projects/mul_add_datapath.v
+L0 2
+R7
+r1
+!s85 0
+31
+Z14 !s108 1746887087.000000
+!s107 F:/vlsi project/fsm_projects/mul_add_datapath.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/mul_add_datapath.v|
+!i113 0
+R8
+R3
+vmul_add_tb
+R9
+!i10b 1
+!s100 ^O=5Sl@K8;3mbCGg68[^41
+INBF9SW[M?fW`e2foNPjeU1
+R5
+R6
+w1746213250
+8F:/vlsi project/fsm_projects/mul_add_tb.v
+FF:/vlsi project/fsm_projects/mul_add_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+R10
+!s107 F:/vlsi project/fsm_projects/mul_add_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/mul_add_tb.v|
+!i113 0
+R8
+R3
+vregister_a
+R13
+!i10b 1
+!s100 nDVaH8]haB_cKodga8z0E0
+IaJTnnzom>5GL>[@]6DoPa1
+R5
+R6
+w1746201304
+8F:/vlsi project/fsm_projects/register_a.v
+FF:/vlsi project/fsm_projects/register_a.v
+L0 2
+R7
+r1
+!s85 0
+31
+R14
+!s107 F:/vlsi project/fsm_projects/register_a.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/register_a.v|
+!i113 0
+R8
+R3
+vregister_b
+R9
+!i10b 1
+!s100 kd2mY12=QIC]gKgo3SczS2
+IgoQ?olH>odPQTh7>;iC_^0
+R5
+R6
+w1746208050
+8F:/vlsi project/fsm_projects/register_b.v
+FF:/vlsi project/fsm_projects/register_b.v
+L0 2
+R7
+r1
+!s85 0
+31
+R10
+!s107 F:/vlsi project/fsm_projects/register_b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/register_b.v|
+!i113 0
+R8
+R3
+vregister_b_tb
+R11
+!i10b 1
+!s100 j;ZDDzQ0<F=4C_>Z8i@HG0
+IiA]GA?O:BmLl@1JBZbRef0
+R5
+R6
+w1746207933
+8F:/vlsi project/fsm_projects/register_b_tb.v
+FF:/vlsi project/fsm_projects/register_b_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+R10
+!s107 F:/vlsi project/fsm_projects/register_b_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/register_b_tb.v|
+!i113 0
+R8
+R3
+vregister_p
+R9
+!i10b 1
+!s100 GhLEHNSzVAiU[MOI3O_gF2
+I?1TNAk]>Q;o2;^]zWF[b10
+R5
+R6
+w1746201319
+8F:/vlsi project/fsm_projects/register_p.v
+FF:/vlsi project/fsm_projects/register_p.v
+L0 2
+R7
+r1
+!s85 0
+31
+R10
+!s107 F:/vlsi project/fsm_projects/register_p.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/vlsi project/fsm_projects/register_p.v|
+!i113 0
+R8
+R3

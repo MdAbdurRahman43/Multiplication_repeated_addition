@@ -1,0 +1,23 @@
+`timescale 1ns/1ns
+module register_b_tb;
+  wire [15:0] bout;
+  reg [15:0] bus;
+  reg ldb, decb, clk;
+  register_b dut(bout, bus, ldb, decb, clk);
+
+  initial begin
+    clk = 0;
+    ldb=0;
+    decb=0;
+    forever #5 clk = ~clk; 
+  end
+
+
+initial begin
+#2 bus=10;
+#8 ldb=1;
+#10 ldb=0;
+#10 decb=1
+      
+end
+endmodule

@@ -1,0 +1,6 @@
+module cmp(eqz,bout);
+input [15:0] bout;
+output eqz;
+assign eqz=(bout==16'h0000);
+
+endmodule

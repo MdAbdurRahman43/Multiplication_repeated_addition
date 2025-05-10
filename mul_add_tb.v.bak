@@ -1,0 +1,26 @@
+`timescale 1ns/1ns
+module mul_add_tb;
+reg clk,start;
+wire done;
+reg [15:0] data_in;
+
+mul_add_datapath mut_datapath(eqz,lda,ldb,ldp,decb,clrp,data_in,clk);
+mul_add_controlpath mut_controlpath(lda,ldb,ldp,clrp,decb,done,eqz,clk,start);
+initial begin
+clk=0;
+#2 start=1'b1;
+end
+always #5 clk=~clk;
+initial begin
+#5 data_in=5;
+#23 data_in=4;
+end
+initial 
+    begin 
+
+   $monitor ("Time: %t, state: %b, eqz: %b, done: %b, lda: %b, ldb: %b", $time, mut_controlpath.state, eqz, done, lda, ldb);
+
+end
+ 
+
+endmodule

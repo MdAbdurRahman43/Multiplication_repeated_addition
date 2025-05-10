@@ -1,0 +1,9 @@
+`timescale 1ns/1ns
+module add(z,x,y);
+input reg[15:0] x;
+input reg[15:0] y;
+output reg[15:0] z;
+always @(*) begin
+z=x+y;
+end
+endmodule

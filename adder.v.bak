@@ -1,0 +1,9 @@
+`timescale 1ns/1ns
+module adder(z,x,y);
+input x;
+input y;
+output reg[15:0] z;
+always @(*) begin
+z=x+y;
+end
+endmodule
